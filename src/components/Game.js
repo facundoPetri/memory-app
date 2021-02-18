@@ -17,7 +17,7 @@ const Game = () => {
 
   useEffect(() => {
     setCharacters(shuffle(charactersJson));
-  }, [score]);
+  }, [score, bestScore]);
 
   function handleClick(isClicked, id) {
     if (!isClicked) {
