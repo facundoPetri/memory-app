@@ -9,20 +9,15 @@ function shuffle(array) {
 
 const Game = () => {
   const [score, setScore] = useState(0);
-  const [bestScore, setBestScore] = useState(0);
+  const [bestScore, setBestScore] = useState(
+    localStorage.getItem('best_score') || 0
+  );
 
   const [characters, setCharacters] = useState([]);
 
   useEffect(() => {
     setCharacters(shuffle(charactersJson));
   }, [score]);
-
-  // useEffect(() => {
-  //   if (score > bestScore) {
-  //     setBestScore(score);
-  //     setScore(0);
-  //   }
-  // }, [score, bestScore])
 
   function handleClick(isClicked, id) {
     if (!isClicked) {
@@ -42,9 +37,9 @@ const Game = () => {
   }
 
   function newGame() {
-    console.log("perdiste");
     if (score > bestScore) {
       setBestScore(score);
+      localStorage.setItem('best_score', score)
       setScore(0);
     }
     setCharacters(
