@@ -10,14 +10,14 @@
     "id": 2,
     "clicked": false,
     "name": "Commander Shepard",
-    "image": "https://static.wikia.nocookie.net/masseffectfanfiction/images/3/34/WpPh0Mlckaov.png/revision/latest?cb=20180727021904",
+    "image": "https://giantbomb1.cbsistatic.com/uploads/scale_small/0/1366/1775330-shepard.jpg",
     "occupation": "Mass Effect"
   },
   {
     "id": 3,
     "clicked": false,
     "name": "Gordon Freeman",
-    "image": "https://static.wikia.nocookie.net/half-life/images/f/f3/Gordon_Freeman_%28Template%29.jpg/revision/latest?cb=20191221105246&path-prefix=en",
+    "image": "https://i.blogs.es/70d4f0/gordon-freeman/1366_2000.jpg",
     "occupation": "Half-Life"
   },
   {
@@ -52,7 +52,7 @@
     "id": 8,
     "clicked": false,
     "name": "James Sunderland",
-    "image": "https://static.wikia.nocookie.net/silent/images/e/e1/James_Sunderland_-_SH_2_Remake_Render.png/revision/latest?cb=20181007212337",
+    "image": "https://i.pinimg.com/originals/1b/8d/16/1b8d16162fd074df9cb409bc6f4f20d9.png",
     "occupation": "Silent Hill 2"
   },
   {
@@ -73,7 +73,7 @@
     "id": 11,
     "clicked": false,
     "name": "Ezio Auditore",
-    "image": "https://static.wikia.nocookie.net/videojuego/images/8/82/Ezio_Auditore.jpg/revision/latest?cb=20130820172800",
+    "image": "https://www.egames.news/__export/1612894357237/sites/debate/img/2021/02/09/ezio-auditore-assassins-creed_1.jpg_284996707.jpg",
     "occupation": "Assassin's Creed"
   },
   {
